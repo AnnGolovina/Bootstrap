@@ -58,8 +58,12 @@ button{
     border-radius: 5px;
     height: 50px;
     width: 100%;
-    background: lightgray;
-    background: red;
+    background: lightcoral;
+    cursor: pointer;
     border: none;
     margin-top: 20px;
+    transition: 0.4s;
+}
+button:hover{
+    transform: scale(1.2);
 }
